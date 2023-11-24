@@ -24,11 +24,29 @@ header, footer {
     font-family: 'Lucida Sans', Verdana, sans-serif;
   }
   
-  img {
-    margin: 32px;
+/*  img {
+    margin: 12px;
   }
+  */
   
   .rede-social {
     font-family: 'Segoe UI', Verdana, sans-serif;
     margin: 8px;
   }
+
+  /* Aplicação das propriedades flex box */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li, .rede-social {
+  margin-left: 48px;
+  }
+
